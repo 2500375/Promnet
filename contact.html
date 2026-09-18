@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact-Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Contact Me</h1>
@@ -23,7 +23,7 @@
       >
     </p>
     <h2>Form Pesan</h2>
-    <form action="#" method="post">
+    <form class="contact-form" action="#" method="post">
       <table border="1" width="650">
         <thead>
           <tr>
@@ -117,30 +117,39 @@
           </tr>
           <tr>
             <th>
-                <label for="pesan">Pesan</label>
+              <label for="pesan">Pesan</label>
             </th>
             <td>
-                <textarea name="pesan" id="pesan" rows="6" cols="40" required></textarea>
+              <textarea
+                name="pesan"
+                id="pesan"
+                rows="6"
+                cols="40"
+                required
+              ></textarea>
             </td>
           </tr>
           <tr>
             <th>Salinan Pesan:</th>
             <td>
-                <input type="checkbox" id="salinan" name="salinan" value="ya">
-                <label for="salinan">Kirim salinan pesan ke email saya</label>
+              <input type="checkbox" id="salinan" name="salinan" value="ya" />
+              <label for="salinan">Kirim salinan pesan ke email saya</label>
             </td>
           </tr>
           <tr>
             <td colspan="2" align="center">
-                <button type="submit">Kirim Pesan</button>
-                <button type="reset">Reset</button>
+              <button type="submit">Kirim Pesan</button>
+              <button type="reset">Reset</button>
             </td>
           </tr>
         </tbody>
       </table>
     </form>
     <p>
-        <em>Catatan: karena website ini hanya menggunakan HTML, form belum terhubung ke server/database.</em>
+      <em
+        >Catatan: karena website ini hanya menggunakan HTML, form belum
+        terhubung ke server/database.</em
+      >
     </p>
     <hr />
     <p><a href="index.html"> Kembali ke Home</a></p>
